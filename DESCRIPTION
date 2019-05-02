@@ -1,0 +1,16 @@
+Package: EUCASTData
+Version: 2019.04.15
+Title: Antimicrobial Wild Type Distributions of Microorganisms
+Description: Contains the MIC- and inhibition zone diameter
+	     distributions of microorganisms without and with resistance mechanisms
+	     available at <https://mic.eucast.org/Eucast2/>.
+Authors@R: c(person("Michaela", "Berndl", role = "aut"),
+	     person("Klara", "Hultsch", role = "aut"),
+	     person("Andreas", "Koppenberger", role = "aut"),
+	     person("Doris", "Kuttner", role = "aut"),
+	     person("Marilena", "Plank", role = "aut"),
+             person("Bettina", "Grün", role = c("ctb", "cre"),
+                    email = "Bettina.Gruen@jku.at",
+		    comment = c(ORCID = "0000-0001-7265-4773")))
+License: GPL-2
+Encoding: UTF-8
