@@ -103,6 +103,7 @@ scrapeBacteria <- function(mic = TRUE, dir = tempdir()) {
                 sep = ";", row.names = FALSE, na = "")
 }
 
+dir.create(file.path("..", "data"), showWarnings = FALSE)
 scrapeBacteria(TRUE, dir = file.path("..", "data")) # for mic data (~75sek)
 scrapeBacteria(FALSE, dir = file.path("..", "data")) # for zone data (~125sek)
 
